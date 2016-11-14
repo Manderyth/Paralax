@@ -1,0 +1,105 @@
+@basefontsize: 35px;
+
+body {
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.header {
+  height: 55px;
+  width: 98.5%;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  text-align: center;
+  font-family: 'Cinzel', Serif;
+  font-size: @basefontsize;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  font-family: 'pacifico', cursive;
+  z-index: 2;
+}
+
+.blackblock {
+  width: 360px;
+  padding: 20px;
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-family: 'pacifico', cursive;
+}
+
+.link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.overlaylink {
+  display: block;
+  text-align: center;
+  height: 50px;
+  width: 25%;
+  color: black;
+  font-family: 'pacifico', cursive;
+  clear: both;
+  hover: pointer;
+  text-decoration: none;
+}
+
+.paralaxone {
+  background-image: url("pictures/Kamelot1.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  //z-index: 1;
+}
+
+.content {
+  height: 500px;
+  background-color: white;
+  font-size: @basefontsize;
+  text-align: center;
+}
+
+.paralaxtwo {
+  background-image: url("pictures/SonataArctica1.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7
+}
+
+.paralaxthree {
+  background-image: url("pictures/TheRasmus.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7
+}
+
+.paralaxfour {
+  background-image: url("pictures/poets-of-the-fall.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7
+}
